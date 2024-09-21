@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.topo {
+    background-color: limegreen;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.container {
+    display: flex;
+}
+
+.lateral-esquerda {
+    background-color: blue;
+    width: 150px;
+    height: 400px;
+    text-align: center;
+    line-height: 400px;
+    color: white;
+}
+
+.conteudo {
+    background-color: cyan;
+    flex: 1;
+    text-align: center;
+    line-height: 400px;
+}
+
+.rodape {
+    background-color: limegreen;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}

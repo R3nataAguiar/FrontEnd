@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: bordex border-box;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+    min-height:100vh;
+    background-color: blueviolet;
+}
+
+.cabecalho{
+    display: flex;
+    background-color: blue;
+    padding: 15px;
+    justify-content: space-between;
+}
+.top-left{
+    width: 35rem;
+    height: 6rem;
+    background-color: brown;
+}
+.top-right{
+    width: 20rem;
+    height: 6rem;
+    background-color: azure;
+
+}
+.conteudo{
+    background-color: blueviolet;
+    width: 20rem;
+    height: 6rem;
+}
