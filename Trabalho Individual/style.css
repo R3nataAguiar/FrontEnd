@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #6423EB;
+    color: #fff;
+}
+
+header {
+    background-color: #E623EB;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+nav a {
+    margin: 0 15px;
+    color: rgb(233, 226, 226);
+    text-decoration: none;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.card {
+    background-color: #9E1FEA;
+    border-radius: 8px;
+    flex: 1 1 calc(33.333% - 20px);
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: center;
+    max-width: calc(33.333% - 20px);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.about {
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+    color: #000;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.about-content img {
+    border-radius: 50%;
+    width: 100px;
+    margin-right: 20px;
+}
+
+.newsletter {
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+    color: #000;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input, form button {
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 80%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+form button {
+    background-color: #3A3AF0;
+    color: white;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #EB237B;
+    padding: 20px;
+    text-align: center;
+}
+
+.social a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.social a:hover {
+    color: #007bff;
+}
+
+@media (max-width: 768px) {
+    .card {
+        flex: 1 1 calc(50% - 20px);
+        max-width: calc(50% - 20px);
+    }
+
+    .about-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-content img {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .card {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+}
+
+
